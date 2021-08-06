@@ -1,0 +1,63 @@
+[
+  {
+    "id":1,
+    "titulo": "Jaws",
+    "rating": 4.5,
+    "year": 1985,
+    "director": "Spielberg",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Tiburon se come turistas",
+    "imageUrl":"https://m.media-amazon.com/images/I/61jtgMcnICL._AC_SY741_.jpg"
+  },
+  {
+    "id":2,
+    "titulo": "Bug",
+    "rating": 1.5,
+    "year": 1995,
+    "director": "Espocito",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Bichos se revelan",
+    "imageUrl":"https://i.pinimg.com/originals/df/52/0e/df520efa3ec065ce7f70bb61362210c5.jpg"
+  },
+  {
+    "id":3,
+    "titulo": "Ovnis",
+    "rating": 2.5,
+    "year": 2005,
+    "director": "Json",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Ovnis destruyen Nueva York",
+    "imageUrl":"https://c8.alamy.com/compes/dt89tw/poster-de-pelicula-alien-sublevacion-u-f-o-ufo-2012-dt89tw.jpg"
+  },
+  {
+    "id":4,
+    "titulo": "Soldado SuperDuper",
+    "rating": 0.1,
+    "year": 2015,
+    "director": "Brayson",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Soldado destrue a los terroristas",
+    "imageUrl":"https://cdn.dribbble.com/users/3700294/screenshots/11098970/last-soldier-action-movie-poster.jpg"
+  },
+  {
+    "id":5,
+    "titulo": "EL Jaquer",
+    "rating": 5.0,
+    "year": 2019,
+    "director": "Anonymous",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Jacker destruye la CIA y el FBI",
+    "imageUrl":"https://i.pinimg.com/originals/11/6e/f0/116ef0409674f63a868d88dcb8045796.jpg"
+  },
+  {
+    "id":6,
+    "titulo": "Tesla",
+    "rating": 3.5,
+    "year": 1999,
+    "director": "Nikolai",
+    "reparto":"Actor 1, Actor 2, Actor 3, Actor 4",
+    "descripcion": "Ingeniero superduper",
+    "imageUrl":"https://i.pinimg.com/originals/71/54/f4/7154f4f95fd1daf6b3b03035d0ac63cc.jpg"
+  }
+]
+

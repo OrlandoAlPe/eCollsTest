@@ -1,9 +1,6 @@
-import 'package:ect/screens/Favs.dart';
-import 'package:ect/screens/Home.dart';
 import 'package:ect/screens/Login.dart';
-import 'package:ect/screens/MovDets.dart';
+import 'package:ect/screens/Navigation.dart';
 import 'package:ect/screens/SignIn.dart';
-import 'package:ect/screens/profileConfig.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,18 +22,19 @@ class MyApp extends StatelessWidget {
               fontSize: 35.0,
               fontWeight: FontWeight.bold,
               color: Color(0xFF000000)),
-          headline6: TextStyle(fontSize: 12.0, color: Color(0xFF575757)),
+          headline6: TextStyle(
+              fontSize: 25.0,
+              color: Color(0xFF575757),
+              fontWeight: FontWeight.w100),
           bodyText1: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          bodyText2: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),
         ),
       ),
-      home: SignIn(),
+      home: Navigation(),
       routes: {
-        '/home': (_) => Home(),
+        '/navigation': (_) => Navigation(),
         '/signIn': (_) => SignIn(),
         '/login': (_) => Login(),
-        '/config': (_) => ProfileConfig(),
-        '/dets': (_) => MovieDetails(),
-        '/fav':(_)=> Favorites(),
       },
     );
   }

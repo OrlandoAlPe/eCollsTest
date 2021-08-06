@@ -73,7 +73,7 @@ class SignIn extends StatelessWidget {
             ),
             Center(
               child: Container(
-                  width: 300, height: 50, child: MainButton(onpress: () => {}, titulo: '¿Crear Cuenta',)),
+                  width: 300, height: 50, child: MainButton(onpress: () => {}, titulo: 'Crear Cuenta',)),
             ),
             Center(
               child: Container(

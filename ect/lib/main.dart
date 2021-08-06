@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),
         ),
       ),
-      home: Navigation(),
+      home: SignIn(),
       routes: {
         '/navigation': (_) => Navigation(),
         '/signIn': (_) => SignIn(),

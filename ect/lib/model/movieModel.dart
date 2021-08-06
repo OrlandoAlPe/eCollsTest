@@ -31,7 +31,6 @@ class FetchingMovies{
   static Future<List<MovieDataModel>> FetchJsonFileData()async{
     final jsonData= await rootBundle.loadString('lib/data/dummyData.json');
     final list = json.decode(jsonData) as List<dynamic>;
-
     return list.map((e) => MovieDataModel.fromJson(e)).toList();
   }
 }

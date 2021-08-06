@@ -1,3 +1,4 @@
+import 'package:ect/widgets/favMovie.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -7,10 +8,14 @@ class Favorites extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Text(
-        'Favorites',
-        style: Theme.of(context).textTheme.headline1,
-      ),
-    );
+        child: Column(
+      children: [
+        Text(
+          'Favorites',
+          style: Theme.of(context).textTheme.headline1,
+        ),
+        FavMovie(),
+      ],
+    ));
   }
 }

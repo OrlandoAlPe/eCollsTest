@@ -12,7 +12,6 @@ class SearchBar extends StatelessWidget {
         decoration: InputDecoration(
             icon: Icon(Icons.search),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
-            //fillColor: Theme.of(context).accentColor,
             labelText: 'Buscar'),
       ),
     );
